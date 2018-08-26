@@ -26,9 +26,9 @@
           "Sunday": "12:00 pm - 4:00 pm, 5:30 pm - 11:00 pm"
         },
         "createdAt": 1504095563444,
-        "updatedAt": "2017-09-14T14:01:27.653Z",
+        "updatedAt": "2018-08-26T21:20:44.988Z",
         "id": 1,
-        "is_favorite": false
+        "is_favorite": true
       },
       {
         "name": "Emily",
@@ -55,7 +55,7 @@
           "Sunday": "12:00 pm - 3:00 pm, 5:00 pm - 11:00 pm"
         },
         "createdAt": 1504095568414,
-        "updatedAt": "2017-09-14T14:05:54.800Z",
+        "updatedAt": "2018-08-26T22:30:58.397Z",
         "is_favorite": false,
         "id": 2
       },
@@ -112,8 +112,8 @@
           "Sunday": "Sat - 10:30 pm"
         },
         "createdAt": 1504095567091,
-        "updatedAt": 1504095567091,
-        "is_favorite": false,
+        "updatedAt": "2018-08-25T22:53:55.925Z",
+        "is_favorite": true,
         "id": 4
       },
       {
@@ -580,6 +580,9 @@
       }
     },
     "restaurants": {
+      "is_favorite": {
+        "type": "boolean"
+      },
       "id": {
         "type": "integer",
         "autoIncrement": true,
